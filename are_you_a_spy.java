@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Are_You_A_Spy {
+public class are_you_a_spy {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             int testCases = Integer.parseInt(input.nextLine());

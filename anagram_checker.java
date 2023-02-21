@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Anagram_Checker {
+public class anagram_checker {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             int testCases = Integer.parseInt(input.nextLine());
