@@ -1,25 +1,16 @@
 # codeQuest_Problems
 
 _________________________________Correct__________________________________
-
 addiply
-
 aeiou
-
 animal_farm
-
 helloworld
+bigger_is_better
 
 _________________________________Incorrect________________________________
-
 Are_You_A_Spy
-
 Around_and_Around
-
 Anti_Asteroid_Weapon
-
 Anagram_Checker
-
 not_so_self_driving
-
 im_board
