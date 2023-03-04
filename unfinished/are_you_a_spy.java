@@ -1,3 +1,4 @@
+package unfinished;
 import java.util.Scanner;
 
 public class are_you_a_spy {
