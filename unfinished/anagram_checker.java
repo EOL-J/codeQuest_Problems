@@ -1,10 +1,15 @@
-package unfinished;
-import java.util.Scanner;
+/* Lesson 6 Coding Activity Question 1 */
 
-public class anagram_checker {
-    public static void main(String[] args) {
+import java.util.Scanner;
+import java.util.*;
+
+class anagram_checker {
+public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             int testCases = Integer.parseInt(input.nextLine());
+            int Count = 0;
+            ArrayList<String> WordList = new ArrayList<String>();
+            
             for (int testcase = 0; testcase < testCases; testcase++) {
                 String[] str = input.nextLine().toUpperCase().split("\\|");
                 String word1 = str[0];
@@ -28,10 +33,18 @@ public class anagram_checker {
                 }
 
                 if (countMetValues == word1.length()) {
-                    System.out.println(word1 + "|" + word2 + " = ANAGRAM");
+                  WordList.add(word1 + "|" + word2 + " = ANAGRAM");
                 } else {
-                    System.out.println(word1 + "|" + word2 + " = NOT AN ANAGRAM");
+                  WordList.add(word1 + "|" + word2 + " = NOT AN ANAGRAM");
                 }
+                
+                Count++;
+                if (Count == testcase){
+                  break;
+                }
+            }
+            for (int i = 0; i < WordList.size(); i++){
+              System.out.println(WordList.get(i));
             }
         }
     }
